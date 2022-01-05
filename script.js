@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
 	const input = document.querySelector("#new-input");
 	const list = document.querySelector("#tasks");
 
-    //new
+    
   
 
 
