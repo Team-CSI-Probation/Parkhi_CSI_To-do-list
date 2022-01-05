@@ -26,6 +26,7 @@ header h1{
     font-weight:300;
     color:gray;
     margin-bottom:1rem;
+   
 }
 #new-form
 {
@@ -56,7 +57,7 @@ input,button
 }
 #new-submit
 {
-    color:var#EC4899;
+    color:#EC4899;
     font-size:1.25rem;
     font-weight:700;
     background-image:linear-gradient(to right,#EC4899,#885Cf6);
@@ -89,25 +90,29 @@ main{
     font-size:1.5rem;
     font-weight:300;
     color:red;
-    margin-bottom:1rem;
+    margin-bottom:1rem;;
 }
 #tasks .task
 {
     display:flex;
     justify-content:space-between;
-    background-color:#0c0f16;
+    background-color:white;
     padding:1rem;
     border-radius:1rem;
     margin-bottom: 1rem;
 }
 #tasks .task .content{
     flex: 1 ;
+    padding:3px ;
+    font-weight:1000;
+   
+    color:black
 
 }
 #tasks .task .content .text:not(:read-only)
 {
-    color:white;
-     transition:0.4s;
+    color:black;
+    transition:0.4s;
 }
 #tasks .task .action
 {
