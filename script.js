@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
 	const list = document.querySelector("#tasks");
 
     
-  
+      const Check = ""
 
 
 	form.addEventListener('submit', (e) => {
