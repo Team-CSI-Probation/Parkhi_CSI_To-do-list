@@ -39,7 +39,7 @@ header h1{
 {
     display:flex;
 }
-input,button
+input
 {
     appearance: none;
     border:none;
@@ -110,6 +110,15 @@ main{
     border-radius:0.5rem;
     margin-bottom: 1rem;
 }
+@media(max-width:600px)
+{
+    #tasks .task
+    {
+        width:150%;
+        margin-left:-40px;
+        padding:10px;
+    }
+}
 #tasks .task .content{
     flex: 1 ;
     padding:3px ;
@@ -130,14 +139,19 @@ main{
 .task .actions button{
     
   cursor:pointer;
-  margin:4px;;
+  margin:3px;
   font-size:20px;
   font-weight:700;
   transition:0.4s;
+  background-color:black
 }
 .tasks .actions button:hover
 {
     opacity:0.8;
+    
+    right:0;
+
+    
 }
 .tasks .actions button:active
 {
