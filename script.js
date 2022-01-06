@@ -2,16 +2,14 @@ window.addEventListener('load', () => {
 	const form = document.querySelector("#new-form");
 	const input = document.querySelector("#new-input");
 	const list = document.querySelector("#tasks");
-
+   
     
-      const Check = ""
-
-
-	form.addEventListener('submit', (e) => {
+      
+        form.addEventListener('submit', (e) => {
 		e.preventDefault();
 
 		const task = input.value;
-
+       
 		const taskl = document.createElement('div');
 		taskl.classList.add('task');
 
