@@ -6,7 +6,7 @@ window.addEventListener('load', () => {
     
       
         form.addEventListener('submit', (e) => {
-		e.preventDefault();
+		 e.preventDefault();
 
 		const task = input.value;
        
@@ -22,7 +22,7 @@ window.addEventListener('load', () => {
 		taski.classList.add('text');
 		taski.type = 'text';
 		taski.value = task;
-		taski.setAttribute('readonly', 'readonly');
+		taski.setAttribute('readonly','readonly');
 
 		taskc.appendChild(taski);
 
