@@ -2,11 +2,11 @@ window.addEventListener('load', () => {
 	const form = document.querySelector("#new-form");
 	const input = document.querySelector("#new-input");
 	const list = document.querySelector("#tasks");
-   
+    
     
       
         form.addEventListener('submit', (e) => {
-		  e.preventDefault();
+		e.preventDefault();
 
 		const task = input.value;
        
@@ -22,7 +22,7 @@ window.addEventListener('load', () => {
 		taski.classList.add('text');
 		taski.type = 'text';
 		taski.value = task;
-		taski.setAttribute('readonly','readonly');
+		taski.setAttribute('readonly', 'readonly');
 
 		taskc.appendChild(taski);
 
@@ -47,7 +47,7 @@ window.addEventListener('load', () => {
 		input.value = '';
 
 		taske.addEventListener('click', (e) => {
-			if (taske.innerText == "edit") {
+			if (taske.innerText.toLowerCase() == "edit") {
 				taske.innerText = "Save";
 				taski.removeAttribute("readonly");
 				taski.focus();
