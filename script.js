@@ -6,7 +6,7 @@ window.addEventListener('load', () => {
     
       
         form.addEventListener('submit', (e) => {
-		 e.preventDefault();
+		  e.preventDefault();
 
 		const task = input.value;
        
@@ -47,7 +47,7 @@ window.addEventListener('load', () => {
 		input.value = '';
 
 		taske.addEventListener('click', (e) => {
-			if (taske.innerText.toLowerCase() == "edit") {
+			if (taske.innerText == "edit") {
 				taske.innerText = "Save";
 				taski.removeAttribute("readonly");
 				taski.focus();

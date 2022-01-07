@@ -124,7 +124,7 @@ main{
     padding:3px ;
     color:black;
 }
-#tasks .task .content .text:not(:read-only)
+#tasks .task .content .text
 {
     color:black;
     transition:0.4s;
